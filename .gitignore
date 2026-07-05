@@ -45,3 +45,6 @@ next-env.d.ts
 .prisma/
 
 /src/generated/prisma
+
+CLAUDE.md
+AGENTS.md

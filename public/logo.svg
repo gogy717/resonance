@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Resonance logo</title>
+  <desc id="desc">A minimal resonance mark made from soft sound waves.</desc>
+  <rect width="128" height="128" rx="28" fill="#0F1115"/>
+  <path d="M31 64C31 45.8 45.8 31 64 31C82.2 31 97 45.8 97 64C97 82.2 82.2 97 64 97C45.8 97 31 82.2 31 64Z" stroke="#F8FAFC" stroke-width="4" opacity="0.16"/>
+  <path d="M19 64C19 39.1 39.1 19 64 19C88.9 19 109 39.1 109 64C109 88.9 88.9 109 64 109" stroke="#F97316" stroke-width="5" stroke-linecap="round"/>
+  <path d="M109 64C109 88.9 88.9 109 64 109C39.1 109 19 88.9 19 64" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" opacity="0.82"/>
+  <rect x="38" y="55" width="10" height="18" rx="5" fill="#F8FAFC"/>
+  <rect x="54" y="42" width="10" height="44" rx="5" fill="#F97316"/>
+  <rect x="70" y="50" width="10" height="28" rx="5" fill="#F8FAFC"/>
+  <rect x="86" y="55" width="10" height="18" rx="5" fill="#CBD5E1"/>
+</svg>

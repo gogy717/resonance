@@ -13,10 +13,6 @@ import { ttsFormOptions } from "@/features/text-to-speech/components/text-to-spe
 import {COST_PER_UNIT, TEXT_MAX_LENGTH} from "@/features/text-to-speech/data/constants";
 
 export function TextInputPanel() {
-    const handleGenerate = async () => {
-        // 模拟提交
-    };
-
     const form = useTypedAppFormContext(ttsFormOptions);
 
     const text = useStore(
@@ -59,7 +55,7 @@ export function TextInputPanel() {
             <div className={"shrink-0 p-4 lg:p-6"}>
                 {/* Mobile Layout */}
                 <div className={"flex flex-col gap-3 lg:hidden"}>
-                    <GenerateButton isSubmitting={isSubmitting} onSubmit={() => form.handleSubmit()} disabled={isSubmitting} size="sm"/>
+                    <GenerateButton className="w-full" isSubmitting={isSubmitting} onSubmit={() => form.handleSubmit()} disabled={isSubmitting || !isValid}/>
                 </div>
                 {/* Desktop Layout */}
                 {text.length > 0 ? (
@@ -80,7 +76,7 @@ export function TextInputPanel() {
                                     &nbsp; / &nbsp; {TEXT_MAX_LENGTH.toLocaleString()} characters
                                 </span>
                             </p>
-                            <GenerateButton isSubmitting={isSubmitting} onSubmit={() => form.handleSubmit()} disabled={isSubmitting} size="sm"/>
+                            <GenerateButton size="sm" isSubmitting={isSubmitting} onSubmit={() => form.handleSubmit()} disabled={isSubmitting || !isValid}/>
                         </div>
                     </div>
                 ) : (

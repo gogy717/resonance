@@ -17,7 +17,7 @@ export function SettingsPanelSettings () {
         <>
             <div className="border-b border-dashed p-4">
                 <p className="text-sm text-muted-foreground">
-                    Voice selector comming soon...
+                    Voice selector coming soon...
                 </p>
             </div>
             <div className='p-4 flex-1'>

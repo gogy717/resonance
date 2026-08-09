@@ -28,7 +28,6 @@ import {
     Volume2,
     Settings,
     Headphones,
-    BookOpen,
 } from "lucide-react";
 
 interface MenuItem {
